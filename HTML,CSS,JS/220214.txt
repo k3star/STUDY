@@ -1,0 +1,27 @@
+모르는거 아는거 공부할거
+
+1. position 몰라서 유튭 영상 봄
+2. 드롭다운 메뉴 했었는데 얼결에 되서 다시 찾아봄
+   -> >와 >안주는거 조금 이해, hover만 줘선 안되고 display, position 등 신경쓸거 많음
+       좀 더 공부
+3. 상단메뉴바 고정하는거 몰라서 "상단 메뉴 고정 css"으로 검색
+   -> position: sticky; 하고 마진, 패딩 조정해줌
+   -> sticky에서 fixed로 변경하고 몇가지 조정해줌. 둘 차이 공부하기
+4. 동영상 재생시키는거 공부
+5. 레이아웃, 각 박스(?) 영역들 크기, 위치 조절하는 방법 공부
+6. iframe -> 유튭 영상 넣는 방법
+
+
+
+// 순서
+git init
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git remote??
+
+git push origin main

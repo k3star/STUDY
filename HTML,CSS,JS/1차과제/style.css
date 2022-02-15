@@ -1,0 +1,79 @@
+ @import "reset.css";
+ 
+ a{
+     text-decoration: none;
+ }
+ .menu{
+     display: block;
+     background-color: rgb(48, 83, 236);
+     padding: 20px;
+ }
+ .menu>a{
+     color: rgb(247, 239, 239);
+     font-size: 50px;
+     font-weight: bold;
+     display: inline-block;
+    
+     
+}
+.menu>div a {
+    color: azure;
+    display: inline-block;
+    
+}
+.menu>div{
+    display: block;
+    text-align: center;
+    
+}
+.menu>div>ul>li{
+    display: inline-block;
+    margin-left: 100px;
+    float: center;
+}
+.menu>div>ul ul{
+   display: none;
+  
+   padding: 10px;
+}
+.menu>div>ul>li:hover>ul{
+    display: block;
+    background-color: rgb(85, 85, 235);
+    color: azure;
+    position: absolute;
+}
+
+.mainpic{
+    padding: 80px;
+    background-color: pink;
+}
+
+.footer1{
+    width: 100%;
+    height: 20px;
+   
+}
+footer{
+
+    padding: 30px;
+    background-color: rgb(185, 179, 179);
+}
+.footer1>li a{
+    float: left;
+    display: block;
+    width:  20%;
+    color: rgb(208, 231, 224);
+}
+.bottom>ul{
+    float: right;
+
+}
+.bottom ul li{
+    display: inline-block;
+}
+
+
+.bottom>div{
+    color: antiquewhite;
+    float: left;
+}

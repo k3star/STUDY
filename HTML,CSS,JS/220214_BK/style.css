@@ -1,0 +1,94 @@
+@import "reset.css";
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    text-align: center; 
+    
+}
+.logo{
+    padding-right: 20px; 
+}
+
+/* z-index 뭐냐 fixed sticky 차이(position) */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+nav>ul{
+    display: inline-block;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav>ul>li>ul{
+    display: none;
+
+}
+nav>ul>li:hover ul{
+    display: block;
+    position:absolute;
+    text-align: left;
+    font-size: 1rem;
+    background-color: white;
+    margin-top: 20px;
+}
+.딜리버리주문{
+    background-color: rgb(184, 31, 31);
+    padding: 15px;
+    color: azure;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.images{
+    padding: 100px;
+
+    display: inline-block;
+
+}
+.video{
+   
+    padding: 100px;
+}
+.call{
+    background-image: url('fire.jpg');
+    color: white;
+    text-align: left;
+    padding: 80px;
+    display: inline-block;
+    width: 70%;
+    
+    
+    
+}
+
+/* .call {
+    display: inline-block;
+} */
+
+.footer{
+    background-color: rgb(54, 10, 20);
+   
+}
+.footer>div{
+    width: 70%;
+    text-align: left;
+    padding: 13%;
+    color: rgb(190, 176, 154);
+    font-weight: bold;
+}
