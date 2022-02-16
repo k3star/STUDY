@@ -1,0 +1,139 @@
+@import "reset.css";
+
+a{
+    text-decoration: none;
+}
+/* 드롭메뉴 위치, 서브메뉴 폰트컬러, 서브메뉴 한줄나열 , 
+   메인메뉴 위치 바 중간(세로 중간)
+   화면 크기 줄여도 메뉴바 고정되도록*/
+.topWrap{
+    border-top: 4px solid gray; 
+}
+.topheaderWrap {  
+    text-align: right;  
+    padding-right: 100px;
+    border-bottom: 1px solid rgb(187, 185, 185);
+    padding: 15px 15% 15px 15%;
+}
+.top{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top a{   
+    color: #555;
+    padding-left: 10px;
+}
+.navWrap{
+    padding: 15px 15% 15px 15%;
+    
+}
+/* .navlogo{
+
+}
+
+.menu{
+
+} */
+.menuWrap{
+    text-align: right;
+}
+.mainmenu{
+    display: inline-block;
+    padding: 3px;
+}
+.mainmenu>a {
+        
+        color: rgb(109, 106, 106);
+        font-weight: bold;
+}
+.mainmenu:hover>a{
+    color: rgb(52, 119, 207);
+}
+.mainmenu:hover .submenu {
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    
+
+}
+
+.submenu {
+    display: none; 
+    
+}
+/* 세로가운데 정렬, 검색하는거 버튼? 라벨?, 그림 위치*/
+.searchboxWrap{
+    background-color: rgb(55, 67, 104);
+    text-align: left;    
+}
+.textbox{
+    padding: 20px 0 10px 0;
+    color: white;     
+    margin-left: 15%;
+    margin-right: 15%
+    
+}    
+.textbox{     
+    font-size: 20px;
+}
+.textbox>p{
+    font-size: 40px;
+    padding-bottom: 10px;    
+}
+.textbox>p>strong{
+    font-weight: bold;
+}
+.searchbox{
+    padding-top: 30px;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%
+}
+.happyimg{ 
+    /* 이미지위치 바로잡기 */
+    text-align: right;
+    /* vertical-align: middle; */
+}
+
+/* 퀵메뉴 - 퀴메뉴배치 일렬로 이쁘게 정렬 어케하냥 */
+.quickmenuboxWrap{
+    background-color: #68abf2;
+    
+}
+.quickmenubox{
+    padding: 30px 15% 30px 15%;
+    
+    
+}
+.quickmenu{
+
+}
+.quickmenu li{
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    
+
+}
+.quickmenu a{
+    color: white;
+    font-size: 13px;
+}
+footer{
+    font-size: small;
+    color: rgb(29, 28, 28);
+    padding: 40px 15% 10px 15%;
+}
+footer a{
+    color: rgb(29, 28, 28);
+}
+footer p{
+    padding-top: 5px;
+}
+footer .bold{
+    font-weight: bold;
+}
+footer .smill{
+    font-size: x-small;
+}
