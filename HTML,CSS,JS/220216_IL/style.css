@@ -93,6 +93,7 @@ a{
 .happyimg{ 
     /* 이미지위치 바로잡기 */
     text-align: right;
+    padding: 0 15% 0 15%;
     /* vertical-align: middle; */
 }
 
@@ -106,7 +107,8 @@ a{
     
     
 }
-.quickmenu{
+.quickmenu p{
+    padding-top: 10px;
 
 }
 .quickmenu li{
@@ -125,6 +127,7 @@ footer{
     color: rgb(29, 28, 28);
     padding: 40px 15% 10px 15%;
 }
+/* footer */
 footer a{
     color: rgb(29, 28, 28);
 }
@@ -134,6 +137,6 @@ footer p{
 footer .bold{
     font-weight: bold;
 }
-footer .smill{
-    font-size: x-small;
+footer .small{
+    font-size: smaller;
 }
