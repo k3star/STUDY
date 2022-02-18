@@ -57,7 +57,42 @@ header a{
 /* location */
 .locationWrap{
     padding: 20px 0 20px 0;
+    color: gray;
 }
+.lastB{
+    font-weight: bold;
+}
+/* main top */
+.maintop{
+    text-align: center;
+    
+}
+.maintop .img1{
+    width: 400px;
+    height: 60px;
+    padding: 50px 0 50px 0;
+}
+.maintop p{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 100px 0;
+}
+/* main-mid 중간회색라인 */
+.main-mid{
+    background-color: rgb(216, 211, 211);
+    color: rgb(49, 48, 48);
+    
+}
+.main-mid p{
+    display: inline-block;
+}
+.mid-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+
 
 
 /* footer */
