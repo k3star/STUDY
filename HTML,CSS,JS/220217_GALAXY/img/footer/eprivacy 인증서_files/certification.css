@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+
+.certifi_wrp{width:500px;height:700px;}
+.certifi_wrp .eprivacy{background: url('/images/certification/eprivacy_cert.png') no-repeat center;background-size: 100%;}
+.certifi_wrp .eprivacyPlus{background: url('/images/certification/eprivacyplus_cert.png') no-repeat center;background-size: 100%;}
+.certifi_wrp .privacy{background: url('/images/certification/privacy_cert.png') no-repeat center;background-size: 100%;}
+.certifi_wrp .i_safe{background: url('/images/certification/isafe-certificate.png') no-repeat center;background-size: 100%;}

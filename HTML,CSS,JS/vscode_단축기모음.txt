@@ -1,0 +1,50 @@
+-vs code 단축기-
+
+한줄 라인 삭제 ctrl + shift + k
+한줄 라인 이동 alt + ↑ or alt + ↓
+
+한줄 내용 복사 alt + shift + ↓
+
+​
+
+한줄 주석 ctrl + /
+
+선택 주석 shift + alt + a
+
+​
+
+화면분할 ctrl + 1 or ctrl + 2
+
+선택라인으로 이동 ctrl + g
+
+​
+
+html 기본 포멧 출력  ! 타이핑 후 엔터
+
+​
+
+커서가 있는 위치에 있는 단어와 같은 단어를 찾아내 동시 수정할 수 있는 기능. Ctrl + D
+
+세로 줄로만 드래그  ALT + Shift + Drag
+
+​
+
+다중선택 후 수정 alt + click
+
+​
+
+코드 자동정렬
+
+ctrl + k anf f
+
+Beauty 플러그인 설치후 단축키는 ctrl + shift + b 
+
+​
+
+코드 한줄로 정렬
+
+css-compact 플러그인을 설치 alt + shift + f 
+
+scss-format 을 설치 Ctrl + i 혹은 Ctrl + j 
+
+​

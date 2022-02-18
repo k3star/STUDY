@@ -1,0 +1,172 @@
+@import "reset.css";
+
+
+a{
+    text-decoration: none;
+}
+/* header */
+header{
+    border-bottom:1px solid gray ;
+    display: flex;
+    padding: 20px 0 20px 0;
+    
+}
+header a{
+    color: black;
+    font-weight: bold;
+}
+.logoWrap{
+    position: relative;
+}
+.topmenuWarp{
+    
+}
+.topmenulist{
+    
+}
+.topmenulist>li>ul>li {
+    display: none;
+}
+.topmenulist>li:hover li{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+
+}
+
+.topiconbox{
+    
+}
+.loginbox{
+    
+}
+/* .loginbox:hover .mypage>li>a{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    color: black;
+} */
+.mypage{
+    display: none;
+}
+
+/* main */
+.main{
+   
+}
+/* location */
+.locationWrap{
+    padding: 20px 0 20px 0;
+}
+
+
+/* footer */
+.info{
+    border-top: 1px solid rgb(163, 156, 156);
+    border-bottom: 1px solid rgb(163, 156, 156);
+    padding: 30px 0 30px 0;
+    color: gray;
+    font-size: 13px;
+}
+.info p{
+    padding: 4px 0 4px 0;
+}
+.info-link{
+    background-color: rgb(129, 124, 124);
+    border-radius: 10px;
+    padding: 1px 10px 1px 10px;
+    
+}
+/* 글씨가 미묘하게 세로아래로 가있음 */
+.info-link>a{
+    color: white;
+    font-size: smaller;
+    
+    
+}
+/* 두번째줄에 세로줄 넣기 */
+/* .secondline{
+    border-right: 1px solid gray;
+} */
+.copyright{
+    font-weight: bold;
+}
+.footer-bottom{
+    /* display: inline-block; */
+    padding: 20px 0 20px 0;
+    display: flex;
+    
+  
+}
+.footer-bottom-left{
+   /* display: inline-block; */
+   float: left;
+   font-size: small;
+   display: flex;
+   /* vertical-align: middle; */
+    
+}
+.textbox{
+    /* display: inline-block; */
+    /* display: flex; */
+}
+.textbox li{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid rgb(185, 182, 182);
+}
+/* 이렇게 없애는게 맞나? ㅡㅡ; */
+#noborder{
+    border-right: 1px solid white;
+}
+.textbox a{
+    font-weight: bold;
+    color: black;
+}
+.combobox{
+    /* display: inline-block; */
+    display: flex;
+}
+.combobox form{
+    /* display: inline-block; */
+}
+
+
+/* footer right */
+.footer-bottom-right{
+    /* text-align: right; */
+    /* display: inline-block; */
+    /* float: right; */
+    display: flex;
+  
+    
+}
+.footer-bottom-right div{
+    /* display: inline-block; */
+    /* display: flex; */
+}
+.certificate-icon{
+    padding-right: 20px;
+    display: flex;
+}
+.certificate-icon img{
+    padding: 0 15px 0 15px;
+    
+}
+.snsWrap{
+    display: flex;
+}
+.snsWrap span{
+    /* sns글씨가 세로중앙에 오게 하기 */
+    font-weight: bold;
+    
+    
+}    
+.snsWrap ul{
+    /* display: inline-block; */
+    display: flex;
+}
+.snsWrap li{
+    /* display: inline-block; */
+    padding-left: 10px;
+}

@@ -37,30 +37,37 @@ a{
 } */
 .menuWrap{
     text-align: right;
+    
 }
 .mainmenu{
     display: inline-block;
     padding: 3px;
+    
+    
 }
 .mainmenu>a {
         
         color: rgb(109, 106, 106);
         font-weight: bold;
+        
 }
 .mainmenu:hover>a{
     color: rgb(52, 119, 207);
 }
 .mainmenu:hover .submenu {
-    background-color: black;
+    background-color: rgb(38, 81, 199);
     display: inline-block;
     position: absolute;
-    
+       
 
 }
-
+.submenu a{
+    color: white;
+    
+}
 .submenu {
     display: none; 
-    
+   
 }
 /* 세로가운데 정렬, 검색하는거 버튼? 라벨?, 그림 위치*/
 .searchboxWrap{
@@ -122,12 +129,20 @@ a{
     color: white;
     font-size: 13px;
 }
+/* tap */
+
+
+/* etc */
+
+/* banner */
+
+
+/* footer */
 footer{
     font-size: small;
     color: rgb(29, 28, 28);
     padding: 40px 15% 10px 15%;
 }
-/* footer */
 footer a{
     color: rgb(29, 28, 28);
 }

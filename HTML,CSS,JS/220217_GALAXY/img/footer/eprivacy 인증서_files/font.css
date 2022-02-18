@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/*font 한글*/
+@font-face {
+  font-family: 'NotoSansKR';
+  src : local(※),
+        url('/css/font/NotoSansKR-Light.otf'),
+        url('/css/font/NotoSansKR-Light.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSansKR-Light.woff') format('woff'),
+        url('/css/font/NotoSansKR-Light.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'NotoSansKR';
+  src : local(※),
+        url('/css/font/NotoSansKR-Regular.otf'),
+        url('/css/font/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSansKR-Regular.woff') format('woff'),
+        url('/css/font/NotoSansKR-Regular.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansKR';
+  src : local(※),
+        url('/css/font/NotoSansKR-Medium.otf'),
+        url('/css/font/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSansKR-Medium.woff') format('woff'),
+        url('/css/font/NotoSansKR-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansKR';
+  src : local(※),
+        url('/css/font/NotoSansKR-Bold.otf'),
+        url('/css/font/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSansKR-Bold.woff') format('woff'),
+        url('/css/font/NotoSansKR-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*font 영문*/
+@font-face {
+  font-family: 'NotoSans-Light';
+  src : local(※),
+        url('/css/font/NotoSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSans-Light.woff') format('woff'),
+        url('/css/font/NotoSans-Light.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src : local(※),
+        url('/css/font/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSans-Regular.woff') format('woff'),
+        url('/css/font/NotoSans-Regular.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSans-Medium';
+  src : local(※),
+        url('/css/font/NotoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSans-Medium.woff') format('woff'),
+        url('/css/font/NotoSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSans-Bold';
+  src : local(※),
+        url('/css/font/NotoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/NotoSans-Bold.woff') format('woff'),
+        url('/css/font/NotoSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis-Light';
+  src : local(※),
+        url('/css/font/Dosis-Light.otf'),
+        url('/css/font/Dosis-Light.eot?#iefix') format('embedded-opentype'),
+        url('/css/font/Dosis-Light.woff') format('woff'),
+        url('/css/font/Dosis-Light.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
