@@ -3,15 +3,17 @@
 a{
     text-decoration: none;
 }
+
 /* header */
 
 /* 스크롤시 메뉴바 변화 */
 /* 화면 양사이드 여백주는거 */
 /* 배너 우측상단 닫기버튼 */
 #top{
-    border-bottom: 1px solid rgb(236, 232, 232);
     padding: 30px 0 30px 0;
     vertical-align: middle;
+    width: 980px;
+    margin: 0 auto;
 }
 .topbanner{
     background-color: black;
@@ -39,6 +41,9 @@ a{
 .icon{
     display: inline-block;
 }
+.icon span{
+    
+}
 .icon img{
     width: 36px;
     height: 36px;
@@ -52,13 +57,19 @@ a{
 
 /* header nav */
 nav{
+    
 
 }
 /* header menu */
 /* 마우스올렸을때 메뉴바 전체가 내려오는거 */
 #menu{
     padding: 20px 0 20px 0;
+    border-top: 1px solid rgb(236, 232, 232);
     border-bottom: 3px solid rgb(238, 72, 174);
+}
+.menu{
+    width: 980px;
+    margin: 0 auto;
 }
 .menu>ul{
     display: inline-block;
@@ -71,12 +82,13 @@ nav{
     font-size: 20px;
     font-weight: bold;
     color: black;
-    padding: 0 20px 0 20px;
+    padding-right: 35px;
 }
 #red{
     font-size: 20px;
     font-weight: bold;
     color: red;
+    
 }
 .list-menuname{
     font-size: 16px;
@@ -107,10 +119,15 @@ nav{
     border-left: 1px solid rgb(236, 232, 232);
     border-right: 1px solid rgb(236, 232, 232);
     width: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+  
     
 }
-.seach a{
-    /* border-width: 500px; */
+.seach input{
+    border: none;
+    vertical-align: middle;
+    width: 200px;
     
 }
 /* 넓이 지정 어케하나 */
@@ -135,18 +152,53 @@ nav{
 
 /* article */
 /* VIDEO */
+/* 텍스트 비디오 위에 나오게 하는 방법 */
 #video{
-    
-    background-color: black;
     text-align: center;
+    background-color: black;
 }
-iframe{
-    margin: 0;
-}
+/* 동영상 꽉 차게 하는 방법 */
 
+iframe{
+    width: 980px;
+    margin: 0 auto;
+    
+}
+/* tab */
+#tab{
+    background-color: rgb(236, 229, 229);
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    padding: 60px 0 60px 0;
+}
 
 
 /* EVENT */
+.event{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 0 auto;
+    padding: 60px 0 20px 0;
+}
+.event p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.total-see{
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px; 
+}
+.slide-img div{
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 .slide-img img{
     width: 310px;
     height: 207px;
@@ -163,6 +215,140 @@ iframe{
     font-weight: bold;
     color: gray;
 }
-
+/* 특별관 */
+#spcial-room{
+    justify-content: space-between;
+    display: flex;
+}
+.special-room{
+    width: 980px;
+    margin: 0 auto;
+    padding: 60px 0 60px 0;
+}
+.special-room-text{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    padding-bottom: 20px;
+}
+.special-room-text p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.img-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-type{
+    overflow: hidden;
+    width: 440px;
+    padding-left: 30px;
+}
+.right-type li{
+   border-top: 1px solid gray;
+   padding: 18px 0 18px 0;
+}
+.bottomline{
+    border-bottom: 1px solid gray;
+}
+.right-type a{
+    display: flex;
+    justify-content: space-between;
+}
+.right-type p{
+    vertical-align: middle;
+}
+.type-name{
+    font-weight: 700;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.444em;
+}
+.type-tag{
+    padding: 2px 7px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.429em;
+    background-color: #f6f6f6;
+    border-radius: 5px;
 
 /* footer */
+
+#footer{
+    background-color: rgb(240, 233, 233);
+    padding : 0 0 40px 0;
+}
+/* 파란배경 어케함 */
+/* 이미지바닥 경계선 하얀줄 없애기 */
+.footer-ad{
+    /* background-color: #56C8F0; */
+    
+    text-align: center;
+    width: 980px;
+    margin: 0 auto;
+}
+.footer-ad a{
+    padding: 0;
+    margin: 0;
+}
+/* 텍스트 자간 자동으로 맞춰서 .. 980px안에 꽉 차게 */
+.footer-menu{
+    padding: 20px 0 20px 0;
+    width: 980px;
+    margin: 0 auto;
+    
+}
+.footer-menu li{
+    display: inline-block;
+    
+}
+.footer-menu a{
+    color: rgb(61, 58, 58);
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+}
+#underline{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+.footer-info{
+    border-top: 1px solid rgb(182, 177, 177);
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 40px;
+    
+}
+.info-text{
+    display: inline-block;
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.info-text p{
+    padding: 4px 0 4px 0;
+}
+.info-text a{
+    color: gray;
+    font-size: 13px;
+    text-decoration: underline;
+    
+}
+/* 폼위치 제대로 보내기 */
+.footer-form{
+    display: inline-block;
+    height: 40px;
+    
+}
+button{
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+}

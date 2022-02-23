@@ -27,15 +27,19 @@
                     <div class="icon">
                         <a href="#">
                             <img src="img/header/loginPassword.png" alt="login">
-                            로그인
+                            <span>로그인</span>
                         </a>
                         <a href="#">
                             <img src="img/header/loginJoin.png" alt="join">
-                            회원가입
+                            <span>회원가입</span>
                         </a>
                         <a href="#">
                             <img src="img/header/loginMember.png" alt="mycgv">
-                            MY CGV
+                            <span>MY CGV</span> 
+                        </a>
+                        <a href="#">
+                            <img src="img/header/loginCustomer.png" alt="customer">
+                            <span>고객센터</span> 
                         </a>
                     </div>
                 </div>
@@ -204,7 +208,7 @@
             <!-- 예고편 동영상 -->
             <section id="video">
                 <iframe src="https://adimg.cgv.co.kr/images/202202/Antebellum/Antebellum_1080x608.mp4"
-                        width="800px" height="500px">
+                        width="980px" height="500px">
                 </iframe>
                 <div class="video-textbox">
                     <p class="video-title">안테벨룸</p>
@@ -214,14 +218,60 @@
                     </p>
                 </div>
             </section>
-            <!-- 무비차트/상영예정작 -->
-            <section>
+            <!-- 무비차트/상영예정작 tab -->
+            <section id="tab">
                 <div class="mvchart">
 
                 </div>
                 <div class="soonopen">
 
                 </div>
+
+
+
+                <!-- 탭 예제 -->
+                <div class="container">
+                    <input  id="tab1" name="tab-menu" type="radio" checked>
+                    <label for="tab1">무비차트</label>
+                    <input  id="tab2" name="tab-menu" type="radio">
+                    <label for="tab2">상영예정작</label>
+                    <div id="tab-content1" class="tab-content">
+                      <ul>
+                          <li>
+                              <img src="https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85632/85632_320.jpg" alt="더 배트맨" width="170px" height="242px">
+                              <span>더 배트맨</span>
+                              <span><img src="" alt="egg">99% 예매율 29.0%</span>
+
+
+                          </li>
+                      </ul>
+                    </div>
+                    <div id="tab-content2" class="tab-content">
+                      content2
+                    </div>
+                </div>
+                
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 
             </section>
@@ -230,7 +280,7 @@
                 <div class="event">
                     <p>EVENT</p>
                     <!-- 재생/정지 버튼 -->
-                    <span class="total-see">전체보기</span>
+                    <a href="#" class="total-see">전체보기 ></a>
                 </div>
                 <div class="slide-img">
                     <div>
@@ -249,7 +299,7 @@
                             <p class="title">[언차티드]CGV필름마크</p>
                             <p class="date">2022.02.09~2022.03.06</p>
                         </a>
-                        <a href="#">
+                        <!-- <a href="#">
                             <img src="img/article/event/4.jpg" alt="더 배트맨">
                             <p class="title">[언차티드]CGV필름마크</p>
                             <p class="date">2022.02.09~2022.03.06</p>
@@ -258,17 +308,53 @@
                             <img src="img/article/event/5.jpg" alt="화제의 신메뉴">
                             <p class="title">[언차티드]CGV필름마크</p>
                             <p class="date">2022.02.09~2022.03.06</p>
-                        </a>
-
-
-
+                        </a> -->
+                    </div>
+                </div>
+            </section>
+            <!-- 특별관 -->
+            <section id="special-room">
+                <div class="special-room">
+                    <div class="special-room-text">
+                        <p>특별관</p>
+                        <a href="#" class="total-see">전체보기 ></a>
+                    </div>
+                    <div class="img-type">
+                        <div class="left-img">
+                            <a href="#"><img src="img/article/16382612659930.png" alt="" width="500px" height="260px"> </a>
+                        </div>
+                        <div class="right-type">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <p class="type-name">SUITE CINEMA</p>                                           
+                                        <p class="type-tag">#호텔 컨셉의 프리미엄관</p>                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="type-name">SKY BOX</p>
+                                        <p class="type-tag">#Premium #private</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="type-name">4DX</p>
+                                        <p class="type-tag">#모션시트 #오감체혐</p>
+                                    </a>
+                                </li>
+                                <li class="bottomline">
+                                    <a href="#" >
+                                        <p class="type-name">CINE de CHEF</p>
+                                        <p class="type-tag">#쉐프가 있는 영화관</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 
                     </div>
 
                 </div>
-            </section>
-            <!-- 특별관 -->
-            <section>
                 
             </section>
             <!-- 영화관람권/기프트카드/콤보 -->
@@ -282,16 +368,54 @@
 
         </article>
         <!-- footer -->
+        
         <footer id="footer">
             <div class="footer-ad" >
-
+                <a href="#"><img src="img/footer/980x240.png" alt=""></a>
             </div>
-            <div class="footer-manu">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">IR</a></li>
+                    <li><a href="#">채용정보</a></li>
+                    <li><a href="#">광고/제휴/출점문의</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">편성기준</a></li>
+                    <li><a href="#" id="underline">개인정보처리방침</a></li>
+                    <li><a href="#">법적고지</a></li>
+                    <li><a href="#">이메일주고무단수집거부</a></li>
+                    <li><a href="#">윤리경영</a></li>
+                    <li><a href="#">사이버감사실</a></li>
+                </ul>
 
             </div>
             <div class="footer-info">
+                <div class="info-text">
+                    <p>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</p>
+                    <p>대표이사 : 허민회. 사업자등록번호 : 104-81-45690. 통신판매업신고번호 : 2017-서울용산-0662 <a href="#">사업자정보확인</a></p>
+                    <p>호스팅사업자 : CJ올리브네트웍스. 개인정보보호 책임자 : 심준범. 대표이메일 : cjcgvmaster@cj.net. 고객센터 : 1544-1122</p>
+                    <p>© CJ CGV. All Rights Reserved</p>
+                </div>
+                <div class="footer-form">
+                    <form>
+                        <select name="barogagi">
+                            <option value="1">계열사 바로가기</option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                            <option value="1"></option>
+                        </select>
+                        <button type="button">GO</button>
 
+                    </form>
+
+                </div>
+                
             </div>
+
         </footer>
 
     </header>
