@@ -11,35 +11,46 @@ a{
 /* 배너 우측상단 닫기버튼 */
 #top{
     padding: 30px 0 30px 0;
-    vertical-align: middle;
     width: 980px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .topbanner{
     background-color: black;
-    text-align: center;
+    
 }
 .mainLogo{
-    text-align: left;
-    display: inline-block;
+    
 }
 .mainLogo img{
+    /* display: flex;  */
     width: 117px;
-    height: 53px;    
+    height: 53px;   
 }
-/* 오른쪽정렬 float가 맞나 */
 .rightTop{
-   display: inline;
-   float: right;
+  display: flex;
+  align-items: center;
    
 }
 .banner{
-    display: inline-block;
+    display: flex;
+    padding-right: 10px;
     /* vertical-align: middle; */
 }
-/* 아이콘 밑 글씨위치 */
 .icon{
-    display: inline-block;
+    display: flex;
+    
+}
+.icon a{
+    margin: 10px;
+}
+/* 아이콘 밑 글씨위치 */
+.icon a>img{
+    vertical-align: middle;
+    display: block;
+    width: 36px;
+    height: 36px;
 }
 .icon span{
     
@@ -327,7 +338,9 @@ iframe{
 }
 .boxlink{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* r굿 */
 
 }
 .boxlink img{
@@ -428,7 +441,9 @@ h1{
     padding-top: 20px;
     padding-bottom: 10px;
 }
-
+.content-right img{
+    border-radius: 10px;
+}
 
 
 /* footer */
