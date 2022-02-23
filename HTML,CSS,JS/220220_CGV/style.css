@@ -118,11 +118,8 @@ nav{
     display: flex; 
     border-left: 1px solid rgb(236, 232, 232);
     border-right: 1px solid rgb(236, 232, 232);
-    width: 300;
     padding-left: 10px;
-    padding-right: 10px;
-  
-    
+    padding-right: 10px;    
 }
 .seach input{
     border: none;
@@ -168,11 +165,29 @@ iframe{
 #tab{
     background-color: rgb(236, 229, 229);
 }
-.container{
+.tapWrap{
     width: 980px;
     margin: 0 auto;
-    padding: 60px 0 60px 0;
 }
+.tab-title{
+    display: flex;
+    padding: 60px 0 20px 0;
+}
+.tab-title p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.linebox{
+    border-right: 1px solid rgb(37, 37, 37);
+}
+.linebox2{
+    padding-left: 20px;
+}
+.tab-img{
+
+}
+
 
 
 /* EVENT */
@@ -272,6 +287,149 @@ iframe{
     line-height: 1.429em;
     background-color: #f6f6f6;
     border-radius: 5px;
+}
+/* 영화관람권/기프트카드/콤보 */
+.boxWrap{
+    width: 980px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+.box{
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 15px;
+    display:inline-block;
+    padding: 20px;
+    width: 270px;
+    height: 324px;
+}
+.boxtop{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.boxtop p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.moresee{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+.boxlink-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+.boxlink{
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxlink img{
+    width: 75px;
+    height: 75px;
+}
+.boxlink div{
+    
+}
+.ticket{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 30px;
+}   
+.price{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+/* 공지사항/기타등등*/
+.contents{
+    width: 980px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 20px;
+    display: flex;
+}
+.left{
+    padding: 30px 20px 0 20px;
+    
+}
+.lefttop{
+    border-bottom: 1px solid rgb(216, 213, 213);
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.lefttop>p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.notice{
+    color: black;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.right{
+    border-left: 1px solid rgb(216, 213, 213);
+}
+.leftmiddle{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+dl{
+    display: flex;
+}
+dt{
+    font-size: 15px;
+    font-weight: bold;
+}
+dd{
+    padding-left: 20px;
+}
+dd>span{
+    font-size: 15px;
+}
+.leftbottom{
+    padding: 40px 5px 0 5px;
+    display: flex;
+    text-align: justify;
+}
+/* 간격문제 */
+.leftbottom a{
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+    background-color:  rgb(216, 213, 213);
+    border-radius: 10px;
+    padding: 8px;
+}
+.right{
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.right p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
 
 /* footer */
 
@@ -279,12 +437,12 @@ iframe{
     background-color: rgb(240, 233, 233);
     padding : 0 0 40px 0;
 }
-/* 파란배경 어케함 */
-/* 이미지바닥 경계선 하얀줄 없애기 */
+/* 파란배경 어케함 position 이용 */
+
 .footer-ad{
     /* background-color: #56C8F0; */
     
-    text-align: center;
+    
     width: 980px;
     margin: 0 auto;
 }
@@ -292,22 +450,23 @@ iframe{
     padding: 0;
     margin: 0;
 }
-/* 텍스트 자간 자동으로 맞춰서 .. 980px안에 꽉 차게 */
+
+.footer-ad img{
+    display: block; 
+}
 .footer-menu{
     padding: 20px 0 20px 0;
     width: 980px;
     margin: 0 auto;
-    
 }
-.footer-menu li{
-    display: inline-block;
-    
+.footer-menu ul{
+    display:flex;
+    justify-content: space-between;
 }
 .footer-menu a{
     color: rgb(61, 58, 58);
     font-weight: bold;
-    font-size: 14px;
-    display: inline-block;
+    font-size: 14px; 
 }
 #underline{
     text-decoration: underline;
