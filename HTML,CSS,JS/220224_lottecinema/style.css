@@ -207,9 +207,21 @@ article{
 /* 공지사항 */
 .noticeWrap{
     border-bottom: 1px solid black;
+    padding: 0 0 20px 0;
 }
+.notice{
+    display: flex;
+    justify-content: space-between;
+}
+.notice div{
+    display: flex;
+}
+.notice p{
 
-
+}
+.noticeline {
+    border-right: 1px solid black;   
+}
 
 
 
