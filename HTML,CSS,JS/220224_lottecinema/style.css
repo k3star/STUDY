@@ -220,7 +220,8 @@ article{
 
 }
 .noticeline {
-    border-right: 1px solid black;   
+    border-right: 1px solid black;
+       /* 라인길이 수정  */
 }
 
 
