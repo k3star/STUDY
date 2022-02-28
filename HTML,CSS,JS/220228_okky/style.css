@@ -49,7 +49,8 @@ button{
 
 /* menu */
 .menuWrap{
-    padding: 50px
+    padding: 50px 10px;
+
 
 }
 .menu>li{
@@ -59,10 +60,20 @@ button{
 .menu>li>a{
     color: white;
     font-weight: normal;
-    font-size: 15px;
-    
+    font-size: 15px;  
 }
+/* github */
+.github{
+    text-align: left;
+    padding: 50px 10px;
+}
+.github a{
+    color: white;
+    font-weight: normal;
+    font-size: 15px; 
+    border-left: 3px solid gray;
 
+}
 /* contents */
 /* article */
 article{
@@ -74,4 +85,75 @@ article{
     text-align: center;
 }
 .top-article{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.board{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.board-title{
+    font-weight: bold;
+}
+.board-list{
+    border-top: 1px solid gray;
+    border-left: 4px solid darkblue;
+    border-right: 1px solid gray;
+    
+}
+.board-list2{
+    border-top: 1px solid gray;
+    border-left: 4px solid darkblue;
+    border-right: 1px solid gray;
+}
+.board-list>li{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    width: 320px;
+}
+.board-list2>li{
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    width: 100;
+    
+}
+.board-list>li>a{
+    color: rgb(105, 102, 102);
+}
+
+/* left-section */
+.left-section{
+    padding: 20px;
+    width: 450px;
+}
+
+/* 테크 */
+.right-board{
+    position: relative;
+    left: 500px;
+    width: 100px;
+    bottom: 1600px;
+}
+.board3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* 오른쪽 배너 */
+.right-banner{
+    position: fixed;
+    top: 65px;
+    width: 180px;
+    height: 550px;
+    left: 1070px;
+}
+
+/* footer */
+footer{
+    position: relative;
+    left: 250px;
+    width: 805px;
+    border-top: 2px solid black;
+    padding: 30px;
 }
