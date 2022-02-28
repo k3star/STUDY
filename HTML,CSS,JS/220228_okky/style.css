@@ -48,24 +48,30 @@ button{
 
 
 /* menu */
-.menu{
+.menuWrap{
     padding: 50px
 
 }
-.menu a{
+.menu>li{
+    padding: 30px 0 30px 0;
+}
+
+.menu>li>a{
     color: white;
     font-weight: normal;
     font-size: 15px;
-    padding: 30px 0 30px 0;
+    
 }
 
 /* contents */
 /* article */
 article{
-    
     position: relative;
-    left: 210px;
+    left: 250px;
+    width: 805px;
+}
+.top-banner{
+    text-align: center;
 }
 .top-article{
-    position: absolute;
 }

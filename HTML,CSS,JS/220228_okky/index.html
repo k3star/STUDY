@@ -28,13 +28,13 @@
         <!-- 로그인/회원가입 -->
         <div class="login-join">
            <ul>
-               <li>
+               <li calss="login">
                    <a href="#">
                     <img src="img/right-to-bracket-solid.svg" 
                          alt="login" width="10px" height="10px">로그인
                     </a>
                 </li>
-               <li>
+               <li calss="join">
                    <a href="#">
                     <img src="img/user-solid.svg" 
                          alt="join" width="10px" height="10px">회원가입
@@ -43,8 +43,8 @@
            </ul> 
         </div>
         <!-- 메뉴 -->
-        <div class="menu">
-            <ul>
+        <div class="menuWrap">
+            <ul class="menu">
                 <li><a href="#"><img src="img/database-solid.svg" alt="" width="10px" height="10px">Q&A</a></li>
                 <li><a href="#"><img src="img/code-solid.svg" alt="" width="10px" height="10px">Tech</a></li>
                 <li><a href="#"><img src="img/comment-solid.svg" alt="" width="10px" height="10px">커뮤니티</a></li>
@@ -53,17 +53,18 @@
             </ul>
         </div>
         <!-- 깃헙 -->
-        <div>
+        <div class="github">
             <a href="#"><img src="" alt="" width="10px" height="10px">Github Issue</a>
         </div>
     </nav>
-    <!--  top banner -->
-    <div class="top-banner">
-        <a href="#"><img src="img/topbanner.jpg" alt="banner"></a>
-
-    </div>
+    
     <!-- contents -->
     <article>
+        <!--  top banner -->
+        <div class="top-banner">
+            <a href="#"><img src="img/topbanner.jpg" alt="banner"></a>
+
+         </div>
         <!-- top section -->
         <section class="top-article">
             <!-- Editor's Choice -->
@@ -99,11 +100,14 @@
         <section>
             <!-- Q&A -->
             <div>
-
+                <img src="img/database-solid.svg" alt="" width="16px" height="16px">
+                <span class="board-title">Q&A</span> 
             </div>
             <!-- 커뮤니티 -->
             <div>
-                
+                <img src="img/comment-solid.svg" alt="" width="16px" height="16px">
+                <span class="board-title">커뮤니티</span> 
+
             </div>
         </section>
         <!-- right section -->
@@ -114,12 +118,22 @@
             </div>
             <!-- Tech -->
             <div>
+                <img src="img/code-solid.svg" alt="" width="16px" height="16px">
+                <span class="board-title">Tech</span> 
+                <span class="moresee"></span>
 
             </div>
             <!-- 칼럼 -->
-    
-            <!-- 학원/홍보 -->
+            <div>
+                <img src="img/quote-left-solid.svg" alt="" width="16px" height="16px">
+                <span class="board-title">칼럼</span> 
 
+            </div>
+            <!-- 학원/홍보 -->
+            <div>
+                <span class="board-title">학원/홍보</span> 
+
+            </div>
 
         </section>
 
