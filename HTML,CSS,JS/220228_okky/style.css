@@ -1,1 +1,71 @@
 @import url(reset.css);
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #0059ab;
+    position: fixed;
+    width: 210px;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    padding: 0 20px;
+    z-index: 1000;
+}
+.logo{
+    padding: 20px 0;
+    text-align: center;
+}
+/* 버튼태그와 검색폼 여백 없애기 */
+/* 검색 모양 이쁘게 다듬기 */
+.google-search{
+    padding: 10px 0px 25px;
+}
+button{
+        
+}
+/* 로그인/회원가입 */
+.login-join{
+    
+}
+.login-join ul{
+    display: flex;
+}
+.login-join a{
+    /* border 라인 수정하기 */
+    border: 1px solid rgba(12, 21, 105, 0.849);
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: none;
+}
+
+
+/* menu */
+.menu{
+    padding: 50px
+
+}
+.menu a{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 30px 0 30px 0;
+}
+
+/* contents */
+/* article */
+article{
+    
+    position: relative;
+    left: 210px;
+}
+.top-article{
+    position: absolute;
+}
