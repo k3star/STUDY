@@ -153,6 +153,7 @@ article{
 footer{
     position: relative;
     left: 250px;
+    bottom: 0;
     width: 805px;
     border-top: 2px solid black;
     padding: 30px;
